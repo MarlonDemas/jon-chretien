@@ -161,6 +161,7 @@ img {
     height: auto;
     border: none;
     font-style: italic;
+    margin-bottom: 8px;
 }
 
 .grid {
@@ -202,7 +203,7 @@ h3 {
 
 .section-title {
     line-height: 1.2;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 h1,
@@ -229,4 +230,30 @@ section {
 
 .music-grid {
     grid-template-columns: repeat(4, 1fr);
+}
+
+footer {
+    display: flex;
+    padding-top: 10px;
+}
+
+.footerList {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.footerList li {
+    margin-right: 24px;
+    font-size: 1em;
+}
+
+.copywrite {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex: 1 1 0;
 }
