@@ -221,3 +221,8 @@ section {
 .photography-grid {
     grid-template-columns: repeat(2, 1fr);
 }
+
+.item-span {
+    grid-row: span 2;
+    grid-column: span 2;
+}
