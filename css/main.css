@@ -176,7 +176,7 @@ img {
 }
 
 .grid-projects {
-    grid-template-columns: repeat(auto-fill, minmax(277px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
 }
 
 h3 {
@@ -258,11 +258,56 @@ footer {
     flex: 1 1 0;
 }
 
+@media screen and (max-width: 1210px) {
+    .grid-projects {
+        grid-template-columns: repeat(auto-fill, minmax(277px,1fr));
+    }
+}
+
+@media screen and (max-width:767px) {
+    footer {
+        display: block;
+    }
+
+    .footerList {
+        justify-content: center;
+    }
+
+    .copywrite {
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width:690px) {
     body {
         padding: 40px;
     }
+
     .grid-projects {
         grid-template-columns: repeat(auto-fill, minmax(188px,1fr));
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .photography-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .item-span {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+
+    .music-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .lead {
+        font-size: 1.2em;
+    }
+    
+    .banner {
+        margin-bottom: 48px;
+        padding-bottom: 48px;   
     }
 }
