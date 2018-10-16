@@ -176,7 +176,7 @@ img {
 }
 
 .grid-projects {
-    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(277px,1fr));
 }
 
 h3 {
@@ -256,4 +256,13 @@ footer {
     justify-content: flex-end;
     align-items: flex-end;
     flex: 1 1 0;
+}
+
+@media screen and (max-width:690px) {
+    body {
+        padding: 40px;
+    }
+    .grid-projects {
+        grid-template-columns: repeat(auto-fill, minmax(188px,1fr));
+    }
 }
