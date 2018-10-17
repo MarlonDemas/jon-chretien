@@ -5,7 +5,7 @@
 *,
 :after,
 :before {
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 .container {
@@ -34,8 +34,8 @@ p,
 section,
 span,
 ul {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 figcaption,
@@ -44,7 +44,7 @@ footer,
 header,
 hgroup,
 section {
-    display:block;
+    display: block;
 }
 
 h1,
@@ -53,20 +53,20 @@ h3,
 h4,
 h5,
 h6 {
-    font-size:100%;
+    font-size: 100%;
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 img {
-    border:none;
-    font-style:italic;
+    border: none;
+    font-style: italic;
 }
 
 html {
-    -webkit-font-smoothing:antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 /* End of base styles */
 
